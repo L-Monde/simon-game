@@ -8,3 +8,7 @@
 .container__tile_green:active {
     box-shadow: 2px -4px black inset, -2px 2px black inset;
 }
+
+.activated {
+    background-color: #FFF;
+}
