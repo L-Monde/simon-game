@@ -1,0 +1,6 @@
+.mode {
+    display: grid;
+    grid-template-columns: 80px;
+    grid-template-rows: repeat(3, 25px);
+    gap: 5px;
+}

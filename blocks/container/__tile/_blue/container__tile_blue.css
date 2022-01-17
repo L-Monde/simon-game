@@ -1,0 +1,10 @@
+.container__tile_blue {
+    cursor: pointer;
+    border-radius: 0px 0px 180px 0px;
+    background-color: rgb(27, 43, 185);
+    box-shadow: -2px -2px rgb(0, 0, 0) inset, -1px 0px black inset;
+}
+
+.container__tile_blue:active {
+    box-shadow: -2px -2px rgb(0, 0, 0) inset, 1px 1px black inset;
+}

@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    grid-template-rows: 180px 180px;
+    grid-template-columns: 180px 180px;
+    gap: 15px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.activated {
+    background-color: #FFF;
+}

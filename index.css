@@ -1,74 +1,29 @@
-.root {
-    background-color: beige;
-}
+@import url(./vendor/normalize.css);
+@import url(./vendor/font.css);
 
-.game {
-    margin: 0 auto;
-    width: 80vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+/*root*/
 
-header {
-    text-align: center;
-    font-size: 18px;
-}
+@import url(./blocks/body/body.css);
+@import url(./blocks/root/root.css);
 
-.heading {
-    font-size: 3em;
-}
+/*header*/
 
-.tile-container {
-    display: grid;
-    grid-template-rows: 180px 180px;
-    grid-template-columns: 180px 180px;
-    gap: 15px;
-    position: relative;
-    margin-top: 30px;
-    margin-bottom: 40px;
-}
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__title/header__title.css);
 
-.tile-red {
-    background-image: url(./images/button-red.png);
-    background-size: cover;
-}
+/*main*/
 
-.tile-green {
-    background-image: url(./images/button-green.png);
-    background-size: cover;
-}
+@import url(./blocks/game/game.css);
+@import url(./blocks/container/container.css);
+@import url(./blocks/container/__tile/_red/container__tile_red.css);
+@import url(./blocks/container/__tile/_green/container__tile_green.css);
+@import url(./blocks/container/__tile/_blue/container__tile_blue.css);
+@import url(./blocks/container/__tile/_yellow/container__tile_yellow.css);
 
-.tile-blue {
-    background-image: url(./images/button-blue.png);
-    background-size: cover;
-}
+/*footer*/
 
-.tile-yellow {
-    background-image: url(./images/button-yellow.png);
-    background-size: cover;
-}
-
-.button-start {
-    text-decoration: none;
-    height: 30px;
-    padding: 0 30px;
-    color: #555;
-    text-align: center;
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 150%;
-    text-transform: uppercase;
-    border-radius: 4px;
-    border: 2px solid #bbb;
-    cursor: pointer;
-}
-
-.button-start:hover {
-    color: #333;
-    border-color: #888;
-}
-
-.hidden {
-    display: none;
-}
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/toolbar/toolbar.css);
+@import url(./blocks/mode/mode.css);
+@import url(./blocks/mode/__button/mode__button.css);
+@import url(./blocks/button_start/button_start.css);

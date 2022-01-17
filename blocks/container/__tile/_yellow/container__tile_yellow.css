@@ -1,0 +1,10 @@
+.container__tile_yellow {
+    cursor: pointer;
+    border-radius: 0px 0px 0px 180px;
+    background-color: rgb(248, 234, 32);
+    box-shadow: -2px -3px rgb(0, 0, 0) inset;
+}
+
+.container__tile_yellow:active {
+    box-shadow: -2px -3px black inset, 2px 2px black inset;
+}
