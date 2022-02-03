@@ -63,7 +63,7 @@ function newRound() {
     level += 1;
 
     tileContainer.classList.add('unclickable');
-    info.textContent = 'Жди, кожаный мешок.';
+    info.textContent = 'Ожидайте...';
     title.textContent = `Уровень ${level} из 32`;
 
     const newSequence = [...gameSequence];
